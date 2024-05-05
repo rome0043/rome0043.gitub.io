@@ -5,7 +5,7 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
     if ( username == "clouddev" && password == "passintocloud"){
         alert ("Login success");
-        window.location = "welcome.html"; // Redirecting to other page.
+        window.location = "/welcome.html"; // Redirecting to other page.
         return false;
         }
     else{
